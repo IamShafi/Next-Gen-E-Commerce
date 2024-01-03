@@ -39,3 +39,29 @@ NEXT_PUBLIC_SANITY_DATASET=
 NEXT_PUBLIC_STRIPE_PUBLIC_KEY=
 STRIPE_SECRET_KEY=
 ```
+
+### Stripe Shipping information
+
+
+```js
+Shipping address
+Address Line 1:
+123 fake street
+
+United States
+123 Fake Street
+
+Address line 2:
+City: Oak Lawn
+Zip: 60453
+State: Illinois
+
+Payment details
+Card information
+4242 4242 4242 4242
+Visa
+MM/YY 04 / 24
+CVC 242
+
+
+```
