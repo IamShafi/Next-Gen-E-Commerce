@@ -18,6 +18,7 @@ import { product } from "@/sanity/schemas/product-schema"
 export function CartItems() {
   const {cartDetails, removeItem, setItemQuantity} = useShoppingCart();
   // console.log(cartDetails)
+  // mapping over products
   const cartItems = Object.entries(cartDetails!).map(([_,product]) => product)
 
   const {toast} = useToast()

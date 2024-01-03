@@ -22,7 +22,16 @@ export function CartSummary() {
       body: JSON.stringify(cartDetails)
     })
     const data = await response.json()
-  const result = await redirectToCheckout(data.id)
+    // console.log(data)
+  // const URL = data.url
+  // Remove "https://checkout.stripe.com/c/pay/" from the URL
+// var modifiedUrl = URL.replace('https://checkout.stripe.com/c/pay/', '');
+// console.log(data.url)
+// console.log(modifiedUrl);
+  window.location.href = data.url
+  const result = await redirectToCheckout(data.id.url)
+  
+  console.log(result)
   if(result?.error){
     console.error(result)
   }
