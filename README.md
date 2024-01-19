@@ -1,8 +1,15 @@
 # Next-Gen E-Commerce
- 
+
+ ## <a name="tech-stack">⚙️ Tech Stack</a>
+
+```bash
+Next 13, React, Sanity, Stripe, & TailwindCSS
+```
+
  ### Screenshot
  <img src="https://github.com/IamShafi/Next-Gen-E-Commerce/blob/main/public/Screenshot%202023-10-31%20043000.png"/>
-Features:
+
+## <a name="features">🔋 Features</a>
 
 -This full-stack e-commerce app is built with Next 13, features a modern and responsive user interface.
 
@@ -15,22 +22,30 @@ Features:
 -Full-text search: Customers can search for products by keyword.
 
 -Custom Stripe checkout page: Customers can pay for their purchases quickly and easily on a secure checkout page.
+<br/>
 
 
-## Technologies:
+👉 Follow these steps to set up the project locally on your machine.
+
+
+**Cloning the Repository**
 
 ```bash
-Next 13, React, Sanity, Stripe, & TailwindCSS
+git clone https://github.com/your-username/your-project.git
+cd your-project
 ```
 
-### Install packages
+**Installation**
 
-```shell
-npm i
+Install the project dependencies using npm:
+
+```bash
+npm install
 ```
 
-### Setup .env file
+**Set Up Environment Variables**
 
+Create a new file named `.env` in the root of your project and add the following content:
 
 ```js
 NEXT_PUBLIC_SANITY_PROJECT_ID=
